@@ -1,0 +1,12 @@
+[package]
+name = "git-rust"
+version = "0.1.0"
+
+[profile.dev]
+incremental = true
+
+[dependencies]
+flate2 = "1.0"
+sha1 = "0.10.6"
+clap = { version = "4.4", features = ["derive"] }
+reqwest = "0.12.9"
